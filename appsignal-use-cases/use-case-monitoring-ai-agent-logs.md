@@ -339,6 +339,3 @@ You should now see one log entry per user question, with a timestamp, severity l
 
 ***
 
-## Next steps
-
-Now that your agent's queries are visible in AppSignal, you can take this further in a few directions. You could add `logger.error()` calls to capture failed LLM responses alongside your error tracking. You could also add more attributes to the log payload (such as the model name or response latency) to make filtering more useful. If your agent grows to handle many users, combining logging with AppSignal's performance monitoring will give you a full picture of how the system behaves under load.
