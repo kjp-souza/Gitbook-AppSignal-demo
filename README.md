@@ -5,13 +5,13 @@ metaLinks:
   canonical: /broken/pages/PbYb0GukRhiS4qCHdRal
 ---
 
-# Getting started
+# Getting Started
 
 This page walks you through installing AppSignal in your application and authenticating it with your account so you can start monitoring right away.
 
 ***
 
-## Adding a new application
+## Adding a New Application
 
 You can follow an installation wizard to guide you through each installation step.&#x20;
 
@@ -211,7 +211,7 @@ export const appsignal = new Appsignal({
 {% endtab %}
 {% endtabs %}
 
-### Environment variables
+### Environment Variables
 
 Your `.env` file should define the following values. The `APPSIGNAL_APP_ENV` variable controls which environment, for example `development`, `staging`, and `production`. Make sure it matches your actual deployment environment.
 
@@ -225,7 +225,7 @@ export APPSIGNAL_APP_ENV=development
 **Different features use different API keys.** The `APPSIGNAL_PUSH_API_KEY` (prefixed `ls-`) is your application's server-side key. If you want to ship logs to AppSignal via **syslog**, you need the application-specific syslog key instead (e.g. `pi_key=ls-89fghi23-7j45-2k9m-3n6p-4qr817s2ttw8` found in your Log Management settings). Similarly, front-end error monitoring uses its own separate key. Always double-check which key a feature requires before configuring it.
 {% endhint %}
 
-## Finding your keys <a href="#https-poppy-board-78625578.figma.site" id="https-poppy-board-78625578.figma.site"></a>
+## Finding Your Keys <a href="#https-poppy-board-78625578.figma.site" id="https-poppy-board-78625578.figma.site"></a>
 
 The images below shows where to locate and manage your keys inside the AppSignal dashboard.&#x20;
 
