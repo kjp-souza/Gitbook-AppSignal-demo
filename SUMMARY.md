@@ -1,5 +1,4 @@
 # Table of contents
 
-## Getting Started
-
-* [Getting started](README.md)
+* [AppSignal Use Cases](README.md)
+  * [Use Case: Monitoring AI Agent Logs](appsignal-use-cases/use-case-monitoring-ai-agent-logs.md)
