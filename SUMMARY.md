@@ -6,7 +6,8 @@
 
 ## Log Management
 
-* [When to use logs, metrics or traces?](log-management/when-to-use-logs-metrics-or-traces.md)
+* [Why Would I Use AppSignal for Logs?](log-management/why-would-i-use-appsignal-for-logs/README.md)
+  * [When to use logs, metrics or traces?](log-management/why-would-i-use-appsignal-for-logs/when-to-use-logs-metrics-or-traces.md)
 * [How-to Log Recipes](log-management/how-to-log-recipes/README.md)
   * [Configure Logging](log-management/how-to-log-recipes/configure-logging.md)
   * [Monitoring AI Agent Logs](log-management/how-to-log-recipes/monitoring-ai-agent-logs.md)
