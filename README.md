@@ -225,7 +225,7 @@ export APPSIGNAL_APP_ENV=development
 **Different features use different API keys.** The `APPSIGNAL_PUSH_API_KEY` (prefixed `ls-`) is your application's server-side key. If you want to ship logs to AppSignal via **syslog**, you need the application-specific syslog key instead (e.g. `pi_key=ls-89fghi23-7j45-2k9m-3n6p-4qr817s2ttw8` found in your Log Management settings). Similarly, front-end error monitoring uses its own separate key. Always double-check which key a feature requires before configuring it.
 {% endhint %}
 
-## Finding Your Keys <a href="#https-poppy-board-78625578.figma.site" id="https-poppy-board-78625578.figma.site"></a>
+## Finding Your Keys
 
 The images below shows where to locate and manage your keys inside the AppSignal dashboard.&#x20;
 
@@ -237,9 +237,6 @@ You can find you push keys under **App Settings → Push & Deploy**.
 
 ### Log sources API keys
 
-&#x20;If you want to ship logs to AppSignal via **syslog**, you need the application-specific log key found under **Loging → Manage sources**
+&#x20;If you want to ship logs to AppSignal via **syslog**, you need the application-specific log key found under **Logging → Manage sources**
 
-{% embed url="https://www.figma.com/design/vNCKkA883JKL4l7oNIHaHZ/Rag_agent?m=dev&node-id=5-219" %}
-Logging dashboard
-{% endembed %}
-
+{% embed url="https://www.figma.com/design/vNCKkA883JKL4l7oNIHaHZ/Rag_agent?t=JG3igSo8KIu4cYjj-1" %}
